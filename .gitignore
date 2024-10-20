@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node modules
+node_modules/
+.node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+
+# Local environment files
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build and test outputs
+built/
+tests/cases/rwc/*
+tests/cases/perf/*
+test-args.txt
+tests/baselines/local/*
+tests/baselines/reference/projectOutput/*
+tests/baselines/symlinks/*
+coverage/
+
+# Miscellaneous
+.settings
+**/.DS_Store
+**/.vs
+**/.vscode/*
+yarn.lock
+yarn-error.log
+package-lock.json
+.eslintcache
+*v8.log
